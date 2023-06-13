@@ -43,9 +43,9 @@ export default function header() {
             href="#"
           >
             <Image
-              src="https://tecdn.b-cdn.net/img/logo/te-transparent-noshadows.webp"
-              width={40}
-              height={40}
+              src="/Logos/Logo.png"
+              width={80}
+              height={80}
               alt=""
               loading="lazy"
             />
