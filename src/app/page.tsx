@@ -1,12 +1,15 @@
 import React from 'react';
 
+// Section
+import HeroSection from '../components/sections/hero/hero.jsx';
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="">
       {/* <Head>
         <title>My page title</title>
       </Head> */}
-      <div>Home</div>
+      <HeroSection />
     </main>
   )
 }
