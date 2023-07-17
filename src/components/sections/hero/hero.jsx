@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function hero() {
     return (
-        <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
+        <div className="relative bg-emerald-500 flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0">
             <div className="inset-y-0 top-0 right-0 z-0 w-full max-w-xl px-4 mx-auto md:px-0 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-7/12 lg:max-w-full lg:absolute xl:px-0">
                 <svg
                     className="absolute left-0 hidden h-full text-white transform -translate-x-1/2 lg:block"
@@ -27,7 +27,7 @@ export default function hero() {
                         Everything you
                         <br className="hidden md:block" />
                         can imagine{' '}
-                        <span className="inline-block text-deep-purple-accent-400">
+                        <span className="inline-block text-purple-400">
                             is real
                         </span>
                     </h2>
@@ -39,14 +39,14 @@ export default function hero() {
                     <div className="flex items-center">
                         <a
                             href="/"
-                            className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                            className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-400 hover:bg-purple-700 focus:shadow-outline focus:outline-none"
                         >
                             Get started
                         </a>
                         <a
                             href="/"
                             aria-label=""
-                            className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
+                            className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-purple-700"
                         >
                             Learn more
                         </a>
