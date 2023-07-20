@@ -1,7 +1,8 @@
 import React from 'react';
 
-// Section
-import HeroSection from '../components/sections/hero/hero.jsx';
+// Sections
+import HeroSection from '../components/sections/hero/hero.tsx';
+import AboutSection from '../components/sections/about/about.tsx';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <title>My page title</title>
       </Head> */}
       <HeroSection />
+      <AboutSection />
     </main>
   )
 }
