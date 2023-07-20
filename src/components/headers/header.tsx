@@ -1,10 +1,16 @@
 'use client'
-/* eslint-disable react-hooks/rules-of-hooks */
+
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
-export default function header() {
+// Custom Hook
+import usePathHook from "../../hook/pathHook";
+
+export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const path = usePathHook();
+  console.log(path);
 
   return (
     <nav id="navbar" className="navbar bg-white">
@@ -47,13 +53,16 @@ export default function header() {
             <div className="hidden sm:mx-auto sm:block sm:justify-center">
               <div className="flex space-x-4">
                 {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                <a href="#" className="text-gray-900 rounded-md px-3 py-2 text-sm font-bold" aria-current="page">Home</a>
-                <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
-                <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Services</a>
-                <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</a>
+                <Link href="/" className={((path == "home") ? "text-gray-900" : "text-gray-300 hover:bg-sky-300 hover:text-white ") + "rounded-md px-3 py-2 text-sm font-bold"} aria-current="page">Home</Link>
+                <Link href="/about" className={((path == "about") ? "text-gray-900" : "text-gray-300 hover:bg-sky-300 hover:text-white") + " rounded-md px-3 py-2 text-sm font-medium"} >About</Link>
+                <a href="/services" className={((path == "services") ? "text-gray-900" : "text-gray-300 hover:bg-sky-300 hover:text-white") + " rounded-md px-3 py-2 text-sm font-medium"}>Services</a>
+                <a href="/gallery" className={((path == "gallery") ? "text-gray-900" : "text-gray-300 hover:bg-sky-300 hover:text-white") + " rounded-md px-3 py-2 text-sm font-medium"}>Gallery</a>
+                <a href="/contact" className={((path == "contact") ? "text-gray-900" : "text-gray-300 hover:bg-sky-300 hover:text-white") + " rounded-md px-3 py-2 text-sm font-medium"}>Contact</a>
               </div>
             </div>
           </div>
+
+          {/* Hidden */}
           <div className="absolute hidden inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button type="button" className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
               <span className="sr-only">View notifications</span>
@@ -105,10 +114,11 @@ export default function header() {
           <a href="#" className="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</a>
           <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">About</a>
           <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Services</a>
+          <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Gallery</a>
           <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Contact</a>
         </div>
       </div>
-    </nav>
+    </nav >
 
   );
 }
