@@ -28,13 +28,13 @@ export default function hero() {
                     </p> */}
                     <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                         Discover a New Level
-                        <br className="hidden md:block" />
+                        <br className="block" />
                         of Comfort and {' '}
                         <span className="inline-block text-sky-500">
                             Innovation
                         </span>
                     </h2>
-                    <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
+                    <p className="pr-5 mb-5 text-base text-gray-700 md:text-md">
                         Your Trusted HVAC Solutions Provider for Expert Design and Precision Execution
                     </p>
                     <div className="flex items-center">

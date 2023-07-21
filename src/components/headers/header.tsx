@@ -10,7 +10,6 @@ import usePathHook from "../../hook/pathHook";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const path = usePathHook();
-  console.log(path);
 
   return (
     <nav id="navbar" className="navbar bg-white">
