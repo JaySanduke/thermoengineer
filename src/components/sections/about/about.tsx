@@ -16,7 +16,7 @@ export default function About() {
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate a enim sed delectus doloremque neque blanditiis facilis hic repellendus dolor voluptas illum necessitatibus consequatur similique, odit explicabo reprehenderit autem exercitationem?
           </div>
           <div className="relative flex align-middle justify-center w-1/2 p-6">
-            <Image src="/Logos/Logo.png" className='h-auto' alt="about" width={500} height={500} />
+            <Image src="/Logos/Logo.png" className='h-max' alt="about" width={500} height={500} />
           </div>
         </div>
       </div>
