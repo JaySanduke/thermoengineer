@@ -1,9 +1,8 @@
 import Image from 'next/image'
-import React from 'react'
 
 export default function About() {
   return (
-    <section id="about" className="relative bg-[#ebf8ff] flex flex-col items-center py-16 lg:py-12 lg:flex-row lg:justify-center">
+    <section id="about" className="relative bg-[#ebf8ff] flex flex-col items-center py-26 lg:py-32 lg:flex-row lg:justify-center">
       <div className="container bg-white px-16 py-20">
         <div className="setion-heading">
           <h2 className="text-2xl font-semibold uppercase mb-10 text-gray-800">About Us</h2>
