@@ -2,24 +2,22 @@
     /* background: #79e995; */
 }
 
-#companies-logo .logo-container .logo-slider{
-    /* background: red; */
+#companies-logo .logo-container .logo-slider {
     animation: slide 30s linear infinite;
 }
+/* 
+#companies-logo .logo-container .logo-slider:hover {
+    animation-play-state: paused;
+} */
 
 #companies-logo .logo-container .logo-wrapper {
-    display: inline-flex;
-    /* border: 2px #79e995 solid; */
-    margin: 0 120px;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease-in-out;
 }
 
 @keyframes slide {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-100%);
     }
