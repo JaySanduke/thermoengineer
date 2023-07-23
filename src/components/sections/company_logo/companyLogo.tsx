@@ -1,7 +1,6 @@
 import Image from "next/image"
 import "./style.css"
 
-
 export default function CompanyLogo() {
     return (
         <section id="companies-logo" className="relative flex flex-col items-center py-16 lg:py-12 lg:px-10 lg:flex-row lg:justify-center">

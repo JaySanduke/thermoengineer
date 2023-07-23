@@ -9,10 +9,9 @@ export default function About() {
         </div>
         <div className="relative flex">
           <div className="w-1/2">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate a enim sed delectus doloremque neque blanditiis facilis hic repellendus dolor voluptas illum necessitatibus consequatur similique, odit explicabo reprehenderit autem exercitationem?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate a enim sed delectus doloremque neque blanditiis facilis hic repellendus dolor voluptas illum necessitatibus consequatur similique, odit explicabo reprehenderit autem exercitationem?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate a enim sed delectus doloremque neque blanditiis facilis hic repellendus dolor voluptas illum necessitatibus consequatur similique, odit explicabo reprehenderit autem exercitationem?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate a enim sed delectus doloremque neque blanditiis facilis hic repellendus dolor voluptas illum necessitatibus consequatur similique, odit explicabo reprehenderit autem exercitationem?
+            <p className='mb-3'>&emsp; We started our registered HVAC Projects Designing & Execution firm in Indore (M.P.) India, since 2012.</p>
+            <p className='mb-3'>&emsp; We are a team of highly qualified and experienced professionals in the field of HVAC Projects Designing & Execution.</p>
+            <p>&emsp; We present ourselves as one of HVAC Designer & Executor in the India based at Indore, the Commercial Capital of Madhya Pradesh state, we have successfully HVAC designed and executed many projects in all over India during this period.</p>
           </div>
           <div className="relative flex align-middle justify-center w-1/2 p-6">
             <Image src="/Logos/Logo.png" className='h-max' alt="about" width={500} height={500} />
