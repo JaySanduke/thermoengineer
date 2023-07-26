@@ -4,11 +4,11 @@ import "./style.css"
 export default function CompanyLogo() {
     return (
         <section id="companies-logo" className="relative flex flex-col items-center py-16 lg:py-12 lg:px-10 lg:flex-row lg:justify-center">
-            <div className="w-full px-12 py-16">
-                <div className="setion-heading text-center">
-                    <h2 className="text-3xl font-bold uppercase mb-10 text-gray-800">Companies</h2>
+            <div className="w-full px-12 py-12">
+                <div className="section-heading mb-24 text-center">
+                    <h2 className="text-3xl uppercase text-gray-800">Companies</h2>
                 </div>
-                <div className="logo-container w-full py-10 whitespace-nowrap overflow-x-hidden">
+                <div className="logo-container w-full py-8 whitespace-nowrap overflow-x-hidden">
                     <div className="logo-slider inline-block whitespace-nowrap">
                         <div className="logo-wrapper inline-flex justify-center items-center mx-36 h-[120px] w-[280px]">
                             <Image src={"/Companies_Logo/Amneal.png"} className="h-full w-auto" alt="Amneal" width={390} height={162} />
