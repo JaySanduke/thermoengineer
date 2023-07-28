@@ -15,12 +15,12 @@ export default function Header() {
     <nav id="navbar" className="navbar bg-white">
       <div className="container mx-auto px-2 sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="relative flex h-16 items-center justify-between">
-          <div className="absolute inset-y-0 left-0 items-center hidden">
+          <div className="absolute left-0 z-10 items-center sm:hidden">
             {/* Mobile menu button*/}
             <button type="button" className="inline-flex items-center justify-center rounded-md p-2 text-gray-500 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false"
               onClick={() => setIsOpen(!isOpen)}
             >
-              <span className="sr-only">Open main menu</span>
+              {/* <span className="sr-only">Open main menu</span> */}
               {/*
                 Icon when menu is closed.
 
