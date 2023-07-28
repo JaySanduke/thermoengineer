@@ -20,7 +20,7 @@ export default function About() {
               Learn More
             </a>
           </div>
-          <div className="relative flex align-middle justify-center w-1/2 p-6">
+          <div className="relative flex align-middle justify-center w-1/2 p-6 px-12">
             <Image src="/Logos/Logo.png" className='h-max' alt="about" width={500} height={500} />
           </div>
         </div>

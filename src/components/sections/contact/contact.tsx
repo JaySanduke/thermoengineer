@@ -4,7 +4,7 @@ export default function Contact() {
       <div className="container flex lg:max-w-7xl rounded-lg bg-slate-200 px-16 py-20">
         <div className="w-1/2">
           <div className="section-heading mb-6">
-            <h2 className="text-lg uppercase text-gray-800">Contact Us</h2>
+            <h2 className="relative text-lg uppercase text-gray-800 before:block before:absolute before:-bottom-1 before:bg-sky-500 before:w-16 before:h-1">Contact Us</h2>
           </div>
           <div className="section-sub-heading mb-10">
             <h2 className="text-4xl font-bold leading-[2.75rem] text-gray-800">Feel free to<br />Connect with us</h2>
@@ -41,7 +41,7 @@ export default function Contact() {
               <textarea className="p-3 w-full border-[1px] border-gray-100 shadow-md rounded-md" title="message" placeholder="Message" />
             </div>
             <div>
-              <button className="bg-slate-800 text-white uppercase font-bold py-3 px-6 rounded-lg shadow-md">Send Message</button>
+              <button className="bg-slate-800 text-white text-sm uppercase font-normal py-3 px-6 rounded-lg shadow-md">Send Message</button>
             </div>
           </form>
         </div>

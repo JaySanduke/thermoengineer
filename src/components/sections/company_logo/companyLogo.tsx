@@ -5,7 +5,7 @@ export default function CompanyLogo() {
     return (
         <section id="companies-logo" className="relative flex flex-col items-center py-16 lg:py-12 lg:px-10 lg:flex-row lg:justify-center">
             <div className="w-full px-12 py-12">
-                <div className="section-heading mb-24 text-center">
+                <div className="section-heading mb-16 text-center">
                     <h2 className="text-3xl uppercase text-gray-800">Companies</h2>
                 </div>
                 <div className="logo-container w-full py-8 whitespace-nowrap overflow-x-hidden">
