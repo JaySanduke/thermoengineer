@@ -41,7 +41,7 @@ export default function Contact() {
               <textarea className="p-3 w-full border-[1px] border-gray-100 shadow-md rounded-md" title="message" placeholder="Message" />
             </div>
             <div>
-              <button className="bg-slate-800 text-white text-sm uppercase font-normal py-3 px-6 rounded-lg shadow-md">Send Message</button>
+              <button className="bg-slate-800 text-white text-sm uppercase font-normal py-3 px-6 rounded-lg shadow-md cursor-pointer">Send Message</button>
             </div>
           </form>
         </div>

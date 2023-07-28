@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <nav id="navbar" className="navbar bg-white">
-      <div className="container mx-auto px-2 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-2 sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 items-center hidden">
             {/* Mobile menu button*/}
@@ -53,7 +53,7 @@ export default function Header() {
               <div className="flex space-x-4">
                 {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                 <Link href="/" className={((path == "home") ? "text-gray-900" : "text-gray-300 hover:bg-sky-300 hover:text-white ") + " rounded-md px-3 py-2 text-md font-medium"} aria-current="page">Home</Link>
-                <Link href="/about" className={((path == "about") ? "text-gray-900" : "text-gray-300 hover:bg-sky-300 hover:text-white") + " rounded-md px-3 py-2 text-md font-medium"} >About</Link>
+                <Link href="/about" className={((path == "about") ? "text-gray-900" : "text-gray-300 hover:bg-sky-300 hover:text-white") + " relative rounded-md px-3 py-2 text-md font-medium"} >About</Link>
                 <Link href="/services" className={((path == "services") ? "text-gray-900" : "text-gray-300 hover:bg-sky-300 hover:text-white") + " rounded-md px-3 py-2 text-md font-medium"}>Services</Link>
                 <Link href="/gallery" className={((path == "gallery") ? "text-gray-900" : "text-gray-300 hover:bg-sky-300 hover:text-white") + " rounded-md px-3 py-2 text-md font-medium"}>Gallery</Link>
                 <Link href="/contact" className={((path == "contact") ? "text-gray-900" : "text-gray-300 hover:bg-sky-300 hover:text-white") + " rounded-md px-3 py-2 text-md font-medium"}>Contact</Link>
@@ -62,7 +62,7 @@ export default function Header() {
           </div>
 
           {/* Hidden */}
-          <div className="absolute hidden inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <div className="absolute hidden inset-y-0 right-0 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <button type="button" className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
               <span className="sr-only">View notifications</span>
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
