@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function About() {
   return (
     <section id="about" className="relative bg-[#ebf8ff] flex flex-col items-center py-26 lg:py-32 lg:flex-row lg:justify-center">
-      <div className="container lg:max-w-7xl bg-white px-12 sm:px-16 py-20">
+      <div className="container lg:max-w-7xl bg-white px-12 sm:px-16 py-16 sm:py-20">
         <div className="section-heading">
           <h2 className="relative text-2xl sm:text-3xl uppercase mb-10 text-gray-800 before:block before:absolute before:-bottom-1 before:bg-sky-500 before:w-16 before:h-1">About Us</h2>
         </div>
