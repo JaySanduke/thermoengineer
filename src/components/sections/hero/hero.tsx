@@ -33,20 +33,20 @@ export default function hero() {
                             Innovation
                         </span>
                     </h2>
-                    <p className="pr-5 mb-5 text-base text-gray-700 md:text-md">
+                    <p className="pr-5 mb-5 text-sm sm:text-base text-gray-700 md:text-md">
                         Your Trusted HVAC Solutions Provider for Expert Design and Precision Execution
                     </p>
                     <div className="flex items-center">
                         <a
                             href="/"
-                            className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-sky-400 hover:text-sky-700 focus:shadow-outline focus:outline-none"
+                            className="inline-flex items-center justify-center h-10 px-4 sm:h-12 sm:px-6 mr-6 font-medium text-sm sm:text-base tracking-wide text-white transition duration-200 rounded shadow-md bg-sky-400 hover:text-sky-700 focus:shadow-outline focus:outline-none"
                         >
                             Get Started
                         </a>
                         <a
                             href="/"
                             aria-label=""
-                            className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-sky-700"
+                            className="inline-flex items-center font-semibold text-sm sm:text-base text-gray-800 transition-colors duration-200 hover:text-sky-700"
                         >
                             Learn More
                         </a>
