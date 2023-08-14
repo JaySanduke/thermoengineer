@@ -9,7 +9,8 @@ export default function Services() {
                     <h2 className="text-4xl font-bold text-gray-800">What we can offer you</h2>
                 </div>
                 <div className="grid grid-cols-3 grid-rows-3 gap-4 text-center">
-                    <div className="service-card bg-white rounded-lg shadow-lg capitalize border-t-2 border-gray-500 py-8">
+                    <div className="service-card bg-white rounded-lg shadow-lg capitalize border-t-2 border-red-500 py-8">
+                        <div className="card-icon">HVAC</div>
                         <div className="card-heading">HVAC Turnkey Solutions</div>
                     </div>
                     <div className="service-card bg-white rounded-lg shadow-lg capitalize border-t-2 border-gray-500 py-8">

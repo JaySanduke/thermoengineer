@@ -3,7 +3,7 @@ export default function Footer() {
         <footer className="bg-gray-800" >
             <div className="mx-auto text-center text-neutral-100 lg:text-left">
                 <div className="flex items-center justify-center border-b-2 p-6 border-neutral-500 ">
-                    <div className="container flex justify-center lg:justify-between w-full">
+                    <div className="container mx-12 flex justify-center lg:justify-between w-full">
                         <div className="mr-12 hidden lg:block">
                             <span>Get connected with us on social networks:</span>
                         </div>
